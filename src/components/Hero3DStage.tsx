@@ -61,7 +61,7 @@ export function Hero3DStage() {
                 transition={{ duration: 0.6 }}
                 className="text-4xl md:text-5xl lg:text-[56px] font-medium text-white leading-[1.1] text-balance"
               >
-                Orbit - инструмент для планирования и создания продуктов
+                Управляйте проектами и DevOps-процессами в одном месте
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -69,9 +69,9 @@ export function Hero3DStage() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="mt-6 text-lg text-zinc-400"
               >
-                Система для современной разработки.
+                Полный цикл разработки: от таск-трекинга до CI/CD.
                 <br />
-                Управляйте задачами, проектами и дорожными картами.
+                Автоматизируйте рутину и фокусируйтесь на создании продукта.
               </motion.p>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -83,7 +83,7 @@ export function Hero3DStage() {
                   Начать работу
                 </button>
                 <button className="text-zinc-300 font-medium hover:text-white transition-colors flex items-center gap-2 text-sm">
-                  <span className="text-zinc-500">Новинка:</span> Orbit-агент для Slack
+                  <span className="text-zinc-500">Новинка:</span> Интеграция с GitHub и Jira
                   <span aria-hidden="true">→</span>
                 </button>
               </motion.div>
